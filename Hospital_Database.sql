@@ -368,7 +368,7 @@ begin
     end
 end;
 
---Q7) completed appointments with the specialty of doctors as ‘Gastroenterologists
+--Q7) completed appointments with the specialty of doctors as Â‘Gastroenterologists
 select doc.first_name, doc.last_name,doc.specialization,aa.app_date,ast.status_name
 from doctor doc inner join Appointment_Archive aa
 on doc.doc_id= aa.doc_id inner join appointment_status ast
